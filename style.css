@@ -1,14 +1,52 @@
+*{ box-sizing: border-box;}
 body{
 background-image: url(./images/bg-curve-desktop.svg);
+margin: 5px;
+align-items: center;
 }
-.level1{
-    display: flex;
-    flex-direction: column;
-    background-color: blue;
-}
+
 .logo{
     background-color: beige;
+    display: flex;
+    height: 5%;
 }
-.av{
-    
+.butt{
+    display: inline-flex;
+    height: 30px;
+    padding: 0;
+    background:hsl(224, 87%, 55%) ;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.butt:hover{
+    background-color: blue;
+}
+.butt:active{
+    background-color: rgb(108, 108, 214);
+}
+.byte{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 30px;
+    height: 100%;
+    color: white;
+
+}
+.testmony{
+    background-color:hsl(0, 0%, 75%) ;
+    display: block;
+    box-shadow: 0 7px 5px 6px;
+    padding: 40px;
+    width: 25%;
+}
+.last{
+    background-color: rgb(9, 9, 68);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.juno4{
+    background-color: rgb(91, 91, 231);
+    padding: 30px;
 }
